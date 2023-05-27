@@ -1,0 +1,164 @@
+html,body{
+  height: 100%;
+}
+#mapid{
+	height: 80%;
+	width: 80%;
+	float: right;
+}
+aside{
+	display: block !important;
+	background: #ffffff;
+	height: 100%;
+	padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-top: -2px;
+}
+.navbar-custom {
+    background-color:rgb(159, 199, 137) ;
+}     
+.navbar-custom .navbar-brand{
+    color: white;
+}
+.custom-color {
+	background-color: rgb(159, 199, 137); 
+	color: #ffffff; 
+}
+.navbar-fixed-bottom{
+	bottom: 0;
+	
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+    display: block;
+}
+.obiekty {
+    bottom: 120px;
+    overflow-x: hidden;
+    position: absolute;
+    top: 58px;
+    width: 20%;
+}
+
+.dane {
+	float:down;
+    background: #f2f2f2;
+    font-size: 18px ;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 3px 20px;
+}
+.mapdiv {
+    bottom: -4px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -2px;
+}
+  #content
+  {
+    float: left;
+	padding: 20px;
+	width: 680px;
+	height: auto;
+	}
+
+
+#nazwa{
+		position:absolute;
+		display:inline-block;
+		left:8px;
+
+}
+
+
+
+
+
+#coords {
+    color: #fff ;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#scales {
+    color: #fff ;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+
+
+#loc {
+    margin-right: 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+label {
+    margin-left: 10px;
+    font-weight: 300 ;
+    margin-bottom: -1px ;
+}
+
+#proje {
+    margin-top: 5px;
+    color: white;
+}
+
+a, a:hover, a:focus {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+
+.container {
+    width: 100%;
+}
+
+ul {
+    list-style: outside none none;
+    margin-left: -10px;
+}
+.legend-list {
+  list-style: outside none none;
+  margin: 0px 10px;
+}
+
+.label-b {
+  font-weight: 600;
+}
+
+.myList {
+  margin-top:3px;
+}
+
+.tlo {
+  background-color: #765;
+}
+
+.logo {
+  height:45px;
+  margin-top:-12px;
+}
+
+.graphic-legend {
+  margin-left:25px;
+}
+.conteiner {
+    bottom: 40px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+
+@media  screen and (max-width: 400px) {
+         aside {
+            display: none;
+        }
+		
+		@media  screen and (min-width: 750px) {
+        footer {
+            font-size:0.2vw;
+        }
